@@ -36,7 +36,7 @@ Napraviti javnu klasu **Izlozba** u paketu **izlozba** koja ima:
 
 * Javnu metodu **ispisiSveEksponate** koja kao parametar prima ime i prezime autora (kao jedan String) i na ekranu ispisuje podatke o svim eksponatim tog autora. Metoda na početku, u prvom redu, ispisuje datum otvaranja izložbe uz odgovarajuću poruku.
 
-* Javnu metodu **pronadji** koja kao ulazni parametar dobija **samo prezime** autora i vraća niz koji sadrži sve slike koje autori sa tim prezimenom imaju na izložbi a nastale su korišćenjem tehnike "tempera". Niz treba da bude tačno tolike dužine (kapaciteta) koliko ima takvih slika.
+* Javnu metodu **pronadji** koja kao ulazni parametar dobija **samo prezime** autora i vraća niz objekata klase Eksponat koji sadrži sve slike koje autori sa tim prezimenom imaju na izložbi a nastale su korišćenjem tehnike "tempera". Niz treba da bude tačno tolike dužine (kapaciteta) koliko ima takvih slika.
 
 Napraviti javnu klasu **ProbaIzlozba** u paketu **izlozba.proba** koja u okviru main metode pravi jedan objekat klase Izlozba, postavlja da je datum otvaranja izložbe 23.10.2019. i unosi jedan eksponat: fotografiju "John Lennon" autora "Yoko Ono".
 
